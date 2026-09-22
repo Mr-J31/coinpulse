@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="351b79cf-3304-4a5f-a78b-3aab34752df4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,65 @@
     <commands />
     <urls />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000010287218" />
+      <entry key="S5" value="1.0002540517834209" />
+      <entry key="S10" value="1.015995486764947" />
+      <entry key="S30" value="1.343452500059793" />
+      <entry key="S60" value="2.325819995178601" />
+      <entry key="M2" value="4.798852107213646" />
+      <entry key="M5" value="12.009456969485017" />
+      <entry key="M10" value="23.21539734803309" />
+      <entry key="M15" value="33.270464879451936" />
+      <entry key="M30" value="53.52570593845257" />
+      <entry key="H1" value="71.27126488993075" />
+      <entry key="H2" value="83.24731508183523" />
+      <entry key="H4" value="90.23624901607862" />
+      <entry key="D1" value="96.64841413284807" />
+      <entry key="W1" value="97.80545226850825" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="2.366855830324128E-209" />
+      <entry key="MS500" value="1.8829308067117486E-42" />
+      <entry key="S2" value="3.7043208002460493E-11" />
+      <entry key="S5" value="6.721779350170956E-5" />
+      <entry key="S10" value="0.008209945051732236" />
+      <entry key="S30" value="0.22813485767109037" />
+      <entry key="S60" value="0.6646814421720462" />
+      <entry key="M2" value="1.375270783977693" />
+      <entry key="M5" value="2.9245553050365576" />
+      <entry key="M10" value="5.1322311880824305" />
+      <entry key="M15" value="6.772259684690836" />
+      <entry key="M30" value="9.45800353095702" />
+      <entry key="H1" value="11.424963203685195" />
+      <entry key="H2" value="12.624894635169685" />
+      <entry key="H4" value="13.288902170743619" />
+      <entry key="D1" value="13.878063078251513" />
+      <entry key="W1" value="13.982494632155017" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="6.716512783885466E-4" />
+      <entry key="MS500" value="0.23196836911782065" />
+      <entry key="S2" value="0.6939963605047245" />
+      <entry key="S5" value="0.8643599663597684" />
+      <entry key="S10" value="0.9526640991227122" />
+      <entry key="S30" value="1.529790780020393" />
+      <entry key="S60" value="2.9337675567168677" />
+      <entry key="M2" value="6.106316080419851" />
+      <entry key="M5" value="14.871243599172214" />
+      <entry key="M10" value="28.29047227103592" />
+      <entry key="M15" value="39.99141231266752" />
+      <entry key="M30" value="62.94691030419666" />
+      <entry key="H1" value="82.67363998574275" />
+      <entry key="H2" value="95.85961825012492" />
+      <entry key="H4" value="103.51849344987787" />
+      <entry key="D1" value="110.5253137646029" />
+      <entry key="W1" value="111.78777932709349" />
+    </decayedShown>
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -26,32 +94,42 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="3JdJAQcwMIGtYjM3zNwVgM1lOD6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/jalili/WebstormProjects/coinpulse&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/jalili/WebstormProjects/coinpulse/node_modules/typescript/lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "feat/navigation",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "/home/jalili/WebstormProjects/coinpulse",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/jalili/WebstormProjects/coinpulse/node_modules/typescript/lib"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -84,6 +162,8 @@
       <workItem from="1789984869392" duration="2060000" />
       <workItem from="1789996376401" duration="95000" />
       <workItem from="1789996500571" duration="2379000" />
+      <workItem from="1790073013125" duration="346000" />
+      <workItem from="1790073646588" duration="2661000" />
     </task>
     <servers />
   </component>
