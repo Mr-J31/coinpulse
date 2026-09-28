@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
-
+.skeleton {
+  @apply bg-dark-400/60 animate-pulse;
+}
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
