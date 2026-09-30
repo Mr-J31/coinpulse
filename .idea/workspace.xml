@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="351b79cf-3304-4a5f-a78b-3aab34752df4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/CoinOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/CoinOverview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/home/TrendingCoins.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/home/TrendingCoins.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -31,59 +30,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000289990973497" />
-      <entry key="S5" value="1.0176040898122096" />
-      <entry key="S10" value="1.1904294547213845" />
-      <entry key="S30" value="2.3618949243155836" />
-      <entry key="S60" value="4.739968199661703" />
-      <entry key="M2" value="16.34481677561839" />
-      <entry key="M5" value="54.5205489544308" />
-      <entry key="M10" value="89.4226267452963" />
-      <entry key="M15" value="115.71714949546586" />
-      <entry key="M30" value="189.41196673428436" />
-      <entry key="H1" value="303.6786003644954" />
-      <entry key="H2" value="462.9932376283663" />
-      <entry key="H4" value="663.3007216685136" />
-      <entry key="D1" value="1042.5440765213525" />
-      <entry key="W1" value="1146.9662377990226" />
+      <entry key="S2" value="1.0000006833499093" />
+      <entry key="S5" value="1.0051827949313186" />
+      <entry key="S10" value="1.1102861318177184" />
+      <entry key="S30" value="2.2617478757873855" />
+      <entry key="S60" value="4.112679719945846" />
+      <entry key="M2" value="6.7007087280364335" />
+      <entry key="M5" value="10.46093005984438" />
+      <entry key="M10" value="14.948587958806382" />
+      <entry key="M15" value="20.86867747188923" />
+      <entry key="M30" value="46.059857475636356" />
+      <entry key="H1" value="117.24868781026066" />
+      <entry key="H2" value="288.15486073726345" />
+      <entry key="H4" value="573.0650619109813" />
+      <entry key="D1" value="1260.145006664269" />
+      <entry key="W1" value="1479.659137102192" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="5.387829607826914E-171" />
-      <entry key="MS500" value="8.836569626008903E-35" />
-      <entry key="S2" value="3.1833774320008706E-9" />
-      <entry key="S5" value="5.001345635531209E-4" />
-      <entry key="S10" value="0.030701923805002005" />
-      <entry key="S30" value="0.5701848533662004" />
-      <entry key="S60" value="1.2728373567875428" />
-      <entry key="M2" value="1.939132983292578" />
-      <entry key="M5" value="2.5388593470382683" />
-      <entry key="M10" value="3.4767979904755815" />
-      <entry key="M15" value="5.2726724893806365" />
-      <entry key="M30" value="11.626039863576086" />
-      <entry key="H1" value="21.139122980644416" />
-      <entry key="H2" value="38.06393425164509" />
-      <entry key="H4" value="66.41679185987665" />
-      <entry key="D1" value="128.09212294092168" />
-      <entry key="W1" value="145.76284257536577" />
+      <entry key="MS100" value="8.907775714641732E-13" />
+      <entry key="MS500" value="0.003890781681865709" />
+      <entry key="S2" value="0.29487800437366224" />
+      <entry key="S5" value="1.0302436235302082" />
+      <entry key="S10" value="1.9271869038299247" />
+      <entry key="S30" value="4.4911381777097565" />
+      <entry key="S60" value="7.300994568235788" />
+      <entry key="M2" value="10.60098435183201" />
+      <entry key="M5" value="14.702609049724241" />
+      <entry key="M10" value="18.44066830875752" />
+      <entry key="M15" value="22.27706303294955" />
+      <entry key="M30" value="35.362964520664654" />
+      <entry key="H1" value="58.70682795284131" />
+      <entry key="H2" value="91.2123620937459" />
+      <entry key="H4" value="134.03452431544432" />
+      <entry key="D1" value="236.79906129918658" />
+      <entry key="W1" value="270.59231996445016" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.23164701547259273" />
-      <entry key="MS500" value="0.7463891916484765" />
-      <entry key="S2" value="0.9294830708313423" />
-      <entry key="S5" value="0.9753861345207867" />
-      <entry key="S10" value="1.1160566718151825" />
-      <entry key="S30" value="2.732498478648679" />
-      <entry key="S60" value="5.845929506261502" />
-      <entry key="M2" value="18.172559024664963" />
-      <entry key="M5" value="57.003687454068654" />
-      <entry key="M10" value="92.86441091483059" />
-      <entry key="M15" value="120.95872816390614" />
-      <entry key="M30" value="201.00949361228737" />
-      <entry key="H1" value="324.79387770894283" />
-      <entry key="H2" value="501.03542129245665" />
-      <entry key="H4" value="729.6974135774516" />
-      <entry key="D1" value="1170.629304021575" />
-      <entry key="W1" value="1292.7279468610923" />
+      <entry key="MS100" value="3.5055491790681016E-5" />
+      <entry key="MS500" value="0.12851813249640387" />
+      <entry key="S2" value="0.6660040618963734" />
+      <entry key="S5" value="1.4304133434749433" />
+      <entry key="S10" value="2.516368806503307" />
+      <entry key="S30" value="6.362868477175125" />
+      <entry key="S60" value="11.097182617659826" />
+      <entry key="M2" value="17.07092558426322" />
+      <entry key="M5" value="25.031185186953696" />
+      <entry key="M10" value="33.29865551657613" />
+      <entry key="M15" value="43.06720912739375" />
+      <entry key="M30" value="81.35280701560347" />
+      <entry key="H1" value="175.89273700929073" />
+      <entry key="H2" value="379.31615390531584" />
+      <entry key="H4" value="707.0606775488972" />
+      <entry key="D1" value="1496.9319433677917" />
+      <entry key="W1" value="1750.2494525148697" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -109,7 +108,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feat/candlestick",
     "javascript.preferred.runtime.type.id": "node",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
@@ -183,11 +182,24 @@
       <workItem from="1790501520255" duration="612000" />
       <workItem from="1790529373185" duration="45000" />
       <workItem from="1790571036317" duration="505000" />
-      <workItem from="1790590394025" duration="4049000" />
+      <workItem from="1790590394025" duration="4792000" />
+      <workItem from="1790703504274" duration="8250000" />
+      <workItem from="1790762415808" duration="6193000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/home/CoinOverview.tsx</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
