@@ -16,13 +16,11 @@ const CandlestickChart = ({children, data, coinId, height = 360, initialPeriod='
     const chartRef = useRef<IChartApi | null>(null);
     const candleSeriesRef = useRef<ISeriesApi<'Candlestick'> | null>(null);
 
-    const [loading, setLoading] = useState(false);
     const [period, setPeriod] = useState<Period>(initialPeriod);
     const [ohlcData, setOhlcData] = useState<OHLCData[]>(data ?? []);
     const [isPending, startTransition] = useTransition();
 
     const fetchOHLCData = async (selectedPeriod: Period) => {
-        setLoading(true);
         try {
             const {days, interval} = PERIOD_CONFIG[selectedPeriod];
 
@@ -36,8 +34,6 @@ const CandlestickChart = ({children, data, coinId, height = 360, initialPeriod='
 
         } catch (e) {
             console.error('Failed to fetch OHLCData', e);
-        } finally {
-            setLoading(false);
         }
     }
 
@@ -64,6 +60,9 @@ const CandlestickChart = ({children, data, coinId, height = 360, initialPeriod='
         });
 
         const series = chart.addSeries(CandlestickSeries, getCandlestickConfig());
+
+        const convertedToSeconds = ohlcData.map((item) => [Math.floor(item[0] / 1000), item[1], item[2], item[3], item[4]] as OHLCData,);
+
         series.setData(convertOHLCData(ohlcData));
         chart.timeScale().fitContent();
 
@@ -83,7 +82,7 @@ const CandlestickChart = ({children, data, coinId, height = 360, initialPeriod='
             candleSeriesRef.current = null;
         };
 
-    }, [height]);
+    }, [height, period]);
     // آپدیت داده‌ها وقتی period یا داده عوض شد
     useEffect(() => {
         if(!chartRef.current ) return;
@@ -103,7 +102,7 @@ const CandlestickChart = ({children, data, coinId, height = 360, initialPeriod='
                 <div className="button-group">
                     <span className='text-sm mx-2 font-medium text-purple-100/50'>Period:</span>
                     {PERIOD_BUTTONS.map(({value, label}) => (
-                        <button key={value} className={period === value ? 'config-button-active' : 'config-button'} onClick={() => handlePeriodChange(value)} disabled={loading || isPending}>
+                        <button key={value} className={period === value ? 'config-button-active' : 'config-button'} onClick={() => handlePeriodChange(value)} disabled={isPending}>
                             {label}
                         </button>
                     ))}
