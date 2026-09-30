@@ -28,61 +28,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="7.372431482239694E-263" />
-      <entry key="S2" value="1.2315809964575481E-65" />
-      <entry key="S5" value="5.973607581479987E-26" />
-      <entry key="S10" value="1.2994771000891743E-12" />
-      <entry key="S30" value="0.0013435476730517264" />
-      <entry key="S60" value="0.2713450881804513" />
-      <entry key="M2" value="3.9925821613149393" />
-      <entry key="M5" value="20.94637949705664" />
-      <entry key="M10" value="38.764767903787565" />
-      <entry key="M15" value="50.33473614552915" />
-      <entry key="M30" value="79.61299036640244" />
-      <entry key="H1" value="148.74902417210768" />
-      <entry key="H2" value="315.2889613575828" />
-      <entry key="H4" value="600.8551302789356" />
-      <entry key="D1" value="1308.3449001150593" />
-      <entry key="W1" value="1537.6776613304173" />
+      <entry key="MS100" value="1.0000223939019135" />
+      <entry key="MS500" value="1.276923679752079" />
+      <entry key="S2" value="3.6239327801941235" />
+      <entry key="S5" value="7.02871699488249" />
+      <entry key="S10" value="11.990713629087288" />
+      <entry key="S30" value="23.416916893972623" />
+      <entry key="S60" value="29.975964685434317" />
+      <entry key="M2" value="35.83206737831214" />
+      <entry key="M5" value="51.640000736783655" />
+      <entry key="M10" value="79.82296130424864" />
+      <entry key="M15" value="104.01659238090998" />
+      <entry key="M30" value="156.8183242590799" />
+      <entry key="H1" value="240.2920052172571" />
+      <entry key="H2" value="411.18347628102856" />
+      <entry key="H4" value="702.9605205073252" />
+      <entry key="D1" value="1445.995260103056" />
+      <entry key="W1" value="1691.4364422370545" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000021752071" />
-      <entry key="S30" value="1.0012956873457046" />
-      <entry key="S60" value="1.0360080507790792" />
-      <entry key="M2" value="1.2035371536489885" />
-      <entry key="M5" value="2.5455750157773442" />
-      <entry key="M10" value="6.600980139422008" />
-      <entry key="M15" value="10.988329780901374" />
-      <entry key="M30" value="24.604693720788926" />
-      <entry key="H1" value="48.99168857133949" />
-      <entry key="H2" value="83.62505638147739" />
-      <entry key="H4" value="128.80230157761775" />
-      <entry key="D1" value="236.62194813238833" />
-      <entry key="W1" value="272.2355604035443" />
+      <entry key="MS100" value="1.0718703904827956E-26" />
+      <entry key="MS500" value="6.397767520453882E-6" />
+      <entry key="S2" value="0.05029295037216991" />
+      <entry key="S5" value="0.30241466353151114" />
+      <entry key="S10" value="0.5499224159202015" />
+      <entry key="S30" value="0.8192853177101777" />
+      <entry key="S60" value="0.9070755651343353" />
+      <entry key="M2" value="1.0154313678614648" />
+      <entry key="M5" value="1.6504606762282987" />
+      <entry key="M10" value="3.3315757038844973" />
+      <entry key="M15" value="5.848553108765553" />
+      <entry key="M30" value="16.31816629349779" />
+      <entry key="H1" value="39.28367779992468" />
+      <entry key="H2" value="75.28047416064642" />
+      <entry key="H4" value="123.19349453952793" />
+      <entry key="D1" value="238.2849071653107" />
+      <entry key="W1" value="276.6844537962009" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.046922603837329E-9" />
-      <entry key="MS500" value="0.01980488315678788" />
-      <entry key="S2" value="0.37513973832039615" />
-      <entry key="S5" value="0.675580691146685" />
-      <entry key="S10" value="0.8219371595302906" />
-      <entry key="S30" value="0.939301010009648" />
-      <entry key="S60" value="1.2742527571293674" />
-      <entry key="M2" value="5.176908773000193" />
-      <entry key="M5" value="23.472923760767653" />
-      <entry key="M10" value="45.33613009392869" />
-      <entry key="M15" value="61.286714221966484" />
-      <entry key="M30" value="104.17061502980778" />
-      <entry key="H1" value="197.6893165456128" />
-      <entry key="H2" value="398.8677485749365" />
-      <entry key="H4" value="729.620339910851" />
-      <entry key="D1" value="1544.9547882286743" />
-      <entry key="W1" value="1809.9112131320328" />
+      <entry key="MS100" value="0.939543741863183" />
+      <entry key="MS500" value="1.2608013671780078" />
+      <entry key="S2" value="3.654236497571123" />
+      <entry key="S5" value="7.300767903517133" />
+      <entry key="S10" value="12.513116711785104" />
+      <entry key="S30" value="24.221191384837347" />
+      <entry key="S60" value="30.874233075722916" />
+      <entry key="M2" value="36.84154252611392" />
+      <entry key="M5" value="53.28342960262186" />
+      <entry key="M10" value="83.14434195329311" />
+      <entry key="M15" value="109.8503796537265" />
+      <entry key="M30" value="173.10905730753822" />
+      <entry key="H1" value="279.5370183158284" />
+      <entry key="H2" value="486.423796476905" />
+      <entry key="H4" value="826.1193694399276" />
+      <entry key="D1" value="1684.2681801007916" />
+      <entry key="W1" value="1968.118877727428" />
     </decayedShown>
   </component>
   <component name="PackageJsonUpdateNotifier">
@@ -108,7 +108,6 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feat/candlestick",
     "javascript.preferred.runtime.type.id": "node",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
@@ -124,7 +123,7 @@
     "npm.Next.js: server-side.executor": "Debug",
     "settings.editor.selected.configurable": "ml.llm.LLMThirdPartyAiProvidersConfigurable",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/snap/webstorm/683/plugins/javascript-plugin/jsLanguageServicesImpl/external"
+    "ts.external.directory.path": "/home/jalili/WebstormProjects/coinpulse/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
