@@ -29,7 +29,7 @@ const DataTable = <T,>({
                             key={i}
                             className={cn(
                                 "bg-dark-400 text-purple-100 py-4 first:pl-5 last:pr-5",
-                                headerCellClassName,
+                                headerCellClassName, column.headClassName
                             )}
                         >
                             {column.header}

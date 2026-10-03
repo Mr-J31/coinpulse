@@ -25,6 +25,62 @@ export const CoinOverviewFallback = () => {
     );
 };
 
+export const CategoriesFallback = () => {
+    const columns: DataTableColumn<number>[] = [
+        {
+            header: "Categories",
+            cellClassName: "category-cell",
+            cell: () => <div className="category-skeleton skeleton" />,
+        },
+        {
+            header: "Top Gainers",
+            cellClassName: "top-gainers-cell",
+            cell: () => (
+                <>
+                    {Array.from({ length: 3 }).map((_, i) => (
+                        <div key={i} className="coin-skeleton skeleton" />
+                    ))}
+                </>
+            ),
+        },
+        {
+            header: "24h Change",
+            cellClassName: "change-header-cell",
+            cell: () => (
+                <div className="change-cell">
+                    <div className="change-icon skeleton" />
+                    <div className="value-skeleton-sm skeleton" />
+                </div>
+            ),
+        },
+        {
+            header: "Market Cap",
+            cellClassName: "market-cap-cell",
+            cell: () => <div className="value-skeleton-lg skeleton" />,
+        },
+        {
+            header: "24h Volume",
+            cellClassName: "volume-cell",
+            cell: () => <div className="value-skeleton-md skeleton" />,
+        },
+    ];
+
+    const dummyData = Array.from({ length: 10 }, (_, i) => i);
+
+    return (
+        <div id="categories-fallback" className="custom-scrollbar">
+            <h4>Top Categories</h4>
+
+            <DataTable
+                columns={columns}
+                data={dummyData}
+                rowKey={(_, index) => index}
+                tableClassName="mt-3"
+            />
+        </div>
+    );
+};
+
 export const TrendingCoinsFallback = () => {
     const columns: DataTableColumn<number>[] = [
         {
@@ -62,7 +118,7 @@ export const TrendingCoinsFallback = () => {
             <DataTable
                 data={dummyData}
                 columns={columns}
-                rowKey={(index) => index}
+                rowKey={(_, index) => index}
                 tableClassName="trending-coins-table"
                 headerCellClassName="py-3!"
                 bodyCellClassName="py-2!"
