@@ -97,7 +97,7 @@ export const useCoinGeckoWebSocket = ({coinId, poolId, liveInterval,}: UseCoinGe
 
         subscribe('CGSimplePrice', { coin_id: [coinId], action: 'set_tokens' });
 
-        const poolAddress = poolId?.replace('_', ':');
+        const poolAddress = poolId?.replace('_', ':') ?? '';
         if (poolAddress) {
             subscribe('OnchainTrade', {
                 'network_id:pool_address': [poolAddress],
