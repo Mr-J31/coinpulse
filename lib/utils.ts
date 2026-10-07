@@ -69,15 +69,17 @@ export function timeAgo(date: string | number | Date): string {
     return past.toISOString().split('T')[0];
 }
 
+// ورودی باید زمان را به ثانیه داشته باشد (تبدیل از ms در کامپوننت انجام می‌شود)
 export function convertOHLCData(data: OHLCData[]) {
     return data
         .map((d) => ({
-            time: d[0] as Time, // ensure seconds, not ms
+            time: d[0] as Time,
             open: d[1],
             high: d[2],
             low: d[3],
             close: d[4],
         }))
+        .sort((a, b) => (a.time as number) - (b.time as number))
         .filter((item, index, arr) => index === 0 || item.time !== arr[index - 1].time);
 }
 
