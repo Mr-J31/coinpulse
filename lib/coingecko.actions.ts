@@ -82,3 +82,43 @@ export async function getPools(
         return fallback;
     }
 }
+
+export async function searchCoins(query: string): Promise<SearchCoin[]> {
+    const trimmed = query.trim();
+    if (!trimmed) return [];
+
+    // مرحله ۱: نام و نماد (بدون قیمت)
+    const searchData = await fetcher<{
+        coins: { id: string; name: string; symbol: string; thumb: string; large: string }[];
+    }>('/search', { query: trimmed });
+
+    const topCoins = (searchData.coins ?? []).slice(0, 10);
+    if (topCoins.length === 0) return [];
+
+    // مرحله ۲: قیمت و تغییر ۲۴ ساعته برای همین idها
+    const markets = await fetcher<
+        { id: string; current_price: number; price_change_percentage_24h: number | null }[]
+    >('/coins/markets', {
+        vs_currency: 'usd',
+        ids: topCoins.map((coin) => coin.id).join(','),
+        price_change_percentage: '24h',
+    });
+
+    const marketById = new Map(markets.map((m) => [m.id, m]));
+
+    // ادغام دو نتیجه
+    return topCoins.map((coin) => {
+        const market = marketById.get(coin.id);
+        return {
+            id: coin.id,
+            name: coin.name,
+            symbol: coin.symbol,
+            thumb: coin.thumb,
+            large: coin.large,
+            data: {
+                price: market?.current_price,
+                price_change_percentage_24h: market?.price_change_percentage_24h ?? 0,
+            },
+        };
+    });
+}

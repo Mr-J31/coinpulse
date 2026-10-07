@@ -2,10 +2,11 @@ import React from 'react'
 import { fetcher, getPools } from "@/lib/coingecko.actions";
 import { formatCurrency } from '@/lib/utils'
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ArrowLeft } from "lucide-react";
 import LiveDataWrapper from '@/components/LiveDataWrapper'
 import { PERIOD_CONFIG } from '@/constants';
 import Converter from "@/components/Converter";
+import TopGainersLosers from '@/components/TopGainersLosers';
 
 const Page = async ({ params }: NextPageProps) => {
     const { id } = await params;
@@ -69,6 +70,16 @@ const Page = async ({ params }: NextPageProps) => {
     return (
         <main id='coin-details-page'>
             <section className='primary'>
+                <div className='mb-3'>
+                    <Link
+                        href='/coins'
+                        aria-label='Back to all coins'
+                        className='inline-flex items-center gap-2 mb-4 text-purple-100 hover:text-white transition-all font-medium'
+                    >
+                        <ArrowLeft size={20} />
+                        <span className='font-bold'>Back</span>
+                    </Link>
+                </div>
                 <LiveDataWrapper
                     coinId={id}
                     poolId={pool.id}
@@ -104,7 +115,7 @@ const Page = async ({ params }: NextPageProps) => {
                         ))}
                     </ul>
                 </div>
-                <p>Top Gainers and Losers</p>
+                <TopGainersLosers />
             </section>
         </main>
     )
